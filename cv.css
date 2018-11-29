@@ -1,0 +1,219 @@
+
+html {
+    background-color: #dddddd;
+    height: 297mm;
+    width: 210mm;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 297mm;
+    width: 210mm;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+.main {
+    height: 100%;
+}
+/*
+ * header
+-------------------------------------------------- */
+.header {
+    width: 100%;
+    background-image: linear-gradient(45deg, #457aff, #30d4b9);
+    padding: 5mm 0mm;
+}
+
+header span {
+    margin-left: 10px;
+}
+
+header span.snd {
+    margin-left: 32px;
+}
+
+.photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+header a {
+    color: #ffffff;
+}
+
+.social a {
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+/*
+ * Skills
+-------------------------------------------------- */
+.skills ul {
+    list-style-type: none;
+}
+
+.skills-container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills-item {
+    text-align: right;
+    height: 2px;
+    background-image: linear-gradient(45deg, #457aff, #30d4b9);
+}
+
+.html5 {
+    width: 70%;
+}
+
+.css3 {
+    width: 65%;
+}
+
+.bootstrap {
+    width: 65%;
+}
+
+.php {
+    width: 85%;
+}
+
+.mysql {
+    width: 70%;
+}
+
+.jquery {
+    width: 70%;
+}
+
+.symfony {
+    width: 80%;
+}
+
+.git {
+    width: 70%;
+}
+
+.linux {
+    width: 80%;
+}
+
+
+/*
+ * Timeline
+-------------------------------------------------- */
+.timeline {
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: #dddddd;
+    box-shadow: 0px 5px 3px 0px rgba(255, 255, 255, 1) inset;
+}
+
+.timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.entry .date {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.entry .date:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    border-radius: 100%;
+    top: 15%;
+    right: -19px;
+    z-index: 99;
+}
+
+.entry .date h6 {
+    margin: 0;
+}
+
+.entry .date p {
+    margin: 0;
+    font-size: 100%;
+}
+
+.entry .body {
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+}
+
+.entry .body p,
+.entry .body ul li {
+    font-size: 0.8em;
+}
+
+.entry .body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+
+.entry .body p ul {
+    color: #aaaaaa;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.entry .body p ul li:before {
+    content: "–";
+    margin-right: .5em;
+}
+
+
+/*
+ * Footer
+-------------------------------------------------- */
+.footer {
+    width: 100%;
+    background-color: #222222;
+    font-size: 0.8em;
+}
+
+.footer h4 {
+    padding-top: 8px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
