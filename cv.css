@@ -46,6 +46,8 @@ header span.snd {
     border-radius: 50%;
     background-color: #ffffff;
     margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ffffff;
 }
 
 header a {
@@ -121,6 +123,10 @@ header a {
 
 .phpunit {
     width: 70%;
+}
+
+.javascript {
+    width: 75%;
 }
 
 
