@@ -86,19 +86,19 @@ header a {
 }
 
 .html5 {
-    width: 70%;
+    width: 80%;
 }
 
 .css3 {
-    width: 65%;
+    width: 70%;
 }
 
 .bootstrap {
-    width: 65%;
+    width: 70%;
 }
 
 .php {
-    width: 85%;
+    width: 80%;
 }
 
 .mysql {
@@ -110,7 +110,7 @@ header a {
 }
 
 .symfony {
-    width: 80%;
+    width: 75%;
 }
 
 .git {
@@ -127,6 +127,10 @@ header a {
 
 .javascript {
     width: 75%;
+}
+
+.api {
+    width: 70%;
 }
 
 
